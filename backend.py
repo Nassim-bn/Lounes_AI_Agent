@@ -21,7 +21,7 @@ def ask_lounes(question, history=None):
     Returns:
         Stream de réponses
     """
-    client = Groq(api_key=os.getenv("GROQ_KEY"))
+    client = Groq(api_key=os.getenv("GROQ_API_KEY"))
     
     # Construire le chat_history
     chat_history = [
