@@ -45,7 +45,7 @@ if user_input:
         full_response = ""
 
         # Envoi au backend
-        stream = ask_lounes(chat_history=st.session_state.messages)
+        stream = ask_lounes(st.session_state.messages)
 
         # Lecture du stream token par token
         for chunk in stream:

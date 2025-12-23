@@ -63,6 +63,5 @@ def read_stream_response(stream_response):
 
 # Test
 if __name__ == "__main__":
-    # ✅ Maintenant ça marche !
-    stream_response = ask_lounes(question="Quel est le meilleur club du monde ?")
+    stream_response = ask_lounes(question="Tu connais Matoub")
     response = read_stream_response(stream_response)
